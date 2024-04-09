@@ -1,0 +1,5 @@
+local args = {
+    [1] = "Flee"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("ReplicatedPackage"):WaitForChild("Remotes"):WaitForChild("universal"):FireServer(unpack(args))
